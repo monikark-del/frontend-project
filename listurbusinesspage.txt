@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+    <head>
+        <title>navodaya</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="../app.css">
+    </head>
+   
+    <h4 style="color:green">Sainik School Coaching Centre Military School Entrance Exam coaching center</h4>
+    <h1 style="color:green">Entrance Exam Coaching |List Your Business</h1>
+    <p class="text" style=" margin-left: 1300px;color: black;margin-top: 2px;"><b> 8619453001</b></p>
+   
+    
+
+   <body>
+     <div class ="navbar">
+            <a href ="#">Home</a>
+            <div class="dropdown">
+                    <button class="dropbtn">School<i class="fa fa-caret-down"></i></button>
+                    <div class="dropdowncontent">
+                    <a href ="#">Sainik Schools</a>
+                    <a href ="#">sainik school entrance coaching centres</a>
+                    <a href ="#">sainik school entrance coaching class 6 & class 9</a>
+                    <a href ="#">Rashtariy Military school coaching</a>
+                    <a href ="#">RIMC Entrance Exam Coaching</a>
+                    <a href ="#">RMS Coaching</a>
+                    <a href ="#">sainik school coaching</a>
+                    <a href ="#">Best Coaching Center For Sainik School Admission</a>
+                    <a href ="#">Sainik School Entrance Coaching Kanpur</a>
+                    <a href ="#">Sainik School Coaching Centers in Lucknow</a>
+                    <a href ="#">Sainik School Entrance Coaching In Ghazlabad</a>
+                    <a href ="#">Coaching fees Structure</a>
+                    <a href ="#">sainik school  Admission coaching</a>
+                    <a href ="#">Rimc Paper June 2018 Paper Key</a>
+                    <a href ="#">Sainik School Coaching  For Admission</a>
+                    <a href ="#">Best Coaching Center For Sainik School Admission</a>
+                    <a href ="#">Sainik School Entrance Coaching Kanpur</a>
+                    <a href ="#">Sainik School Coaching Centers in Lucknow</a>
+                </div>
+            </div>
+            <a href ="#">Coaching Institute Form</a> 
+            <a href ="#">Blog</a> 
+            <a href ="#">News</a>
+            <a href ="#">Contact Us</a>
+            <div class="dropdown2">       
+               <button class="dropbtn2">Important links<i class="fa fa-caret-down"></i></button>
+                <div class="dropdowncontent2">
+                    <a href ="#">SAINIK SCHOOL COACHING FORM</a>
+                </div>
+            </div>
+             <a href ="#">Are you a business Owner?</a>
+             <div>
+             <button style="background-color: rgb(98, 20, 98); border-radius: 30px;color:white;border: none;">
+             <a href="listurbusinesspage.html"style="background-color: white;border-radius: 30px;color: black;width:150px;height: 12px;text-align:center;margin-bottom: 6px;margin-top: 6px;
+             "href ="#">List your Business</a></button>
+             <button style="background-color: rgb(98, 20, 98); border-radius: 30px;color:white;border: none;">
+             <a href="signinpage.html"style="background-color: white;border-radius: 30px;color: black;width:90px;height: 12px;text-align:center;margin-bottom: 6px;margin-top: 6px;
+             "href ="#">Sign In</a></button>
+             </div>
+    </div><div style="background-image:url(https://tse1.mm.bing.net/th?id=OIP.amNxaYCe8dmCCsHT7OyTsAHaE7&pid=Api&P=0&h=180);
+      width:device-width,initial-scale=1;height: 400px;background-repeat: repeat;padding-top: 30px;">
+        <div style="margin-top: 0;">
+        <h1 style="text-align: center;color: white;padding-top: 70px;">Create your business profile in minutes</h1>
+        <h4 style="color: white;text-align: center;">Entrance Exam Coaching is the #1 Platform for Local Services</h4>
+        <form style="align-items: center;">
+            <label for="Email"></label>
+        <input type="text" id="Email" name="Email"required placeholder="Email Address" style="height:35px; width:350px;
+         background-color: white;border: rgb(62, 62, 62);margin-left:530px ;padding-left: 10px;"><button style="height: 39px;width:76px ;
+         background-color: rgb(98, 20, 98);border: none;color: white;">SUBMIT</button>
+        </form>
+        </div>
+      </div>
+      <div  style="background-color: whitesmoke;width: device-width,initial-scale=1;height: 250px;padding-top: 20px;padding-bottom: 20px;background-color: rgb(229, 225, 225);">
+        <ul> <div style="margin-left: 800px;margin-top: 10px;position: absolute;">
+        <img style="width:400px;height: 230px;"src="C:\Users\Monika R K\Downloads\business.page.jpg" >
+        </div>
+        <h1 style="margin-left:20px ;">How We Works</h1>
+        <li style=" margin-left: 30px;"><a style="text-decoration: none;color: black;font-size: 20px;" href="">Create your business profile within minutes</a></li><br><br>
+        <li style=" margin-left: 30px;"><a style="text-decoration: none;color: black;font-size: 20px;"  href="">Add photos, reviews, ratings to enrich your profile</a></li><br><br>
+        <li style=" margin-left: 30px;"><a style="text-decoration: none;color: black;font-size: 20px;"  href="">Get buyers from Fast Track's 2 thousand monthly visitors</a></li>  
+        <button onclick="getlocation()"  style="margin-left: 1426px;width: 45px;height: 45px;background-color: blue;border: none;">
+<div class="location" style=" transition: width 2s;transition-timing-function: linear;"><img  src="C:\Users\Monika R K\Downloads\maps.jpg" alt="image not displayed" style="width:32px;height: 32px;
+margin-top:4px;margin-left: 0.1px;transform: scaleX(100px);"></div></button>  
+<p id="demo"></p>
+
+<script>
+    var success;
+    const x =document.getElementById("demo");
+    function getlocation(){
+        if(navigator.geolocation){
+           
+            navigator.geolocation.getCurrentPosition(success,error);
+
+        }
+        else{
+            x.innerhtml="geolocation is not supported by this browser.;"
+        }
+    }
+    function success(position){
+        x.innerHTML="latitude:"+ position.coords.latitude+"<br>longitude:"+position.coords.longitude;
+    }
+    function error(){
+        alert("sorry, no position available.");
+    }
+</script>
+       
+
+<button onclick="tel()" style="margin-left: 1426px;width: 45px;height: 45px;background-color:red;border: none;">
+<img src="C:\Users\Monika R K\Downloads\call.jpg" alt="image not displayed" style="width:32px;height: 32px;
+margin-top:px;margin-left: 0.1px;"></button>  <br><br>
+<button onclick="tel()" style="margin-left: 1426px;width: 45px;height: 45px;background-color:green;border: none;">
+<img src="C:\Users\Monika R K\Downloads\whatsapp.jpg" alt="image not displayed" style="width:30px;height: 30px;
+margin-top:1px;margin-left: 0.1px;"></button>  
+
+     </div></div>
+        
+     </div>
+     
+     <div style="background-color: white;">
+        <h1 style="color:rgb(98, 20, 98); text-align: center;">Benefits of Partnering with Us</h1>
+        
+        <img style="width: 300px;height: 200px; margin-left: 200px;border-radius: 20px;" src="C:\Users\Monika R K\Downloads\image1.jpg">
+        <img style="width:300px;height:200px;margin-left: 80px;border-radius: 20px;" src="C:\Users\Monika R K\Downloads\img2.jpg">
+        <img style="width: 300px;height: 200px;margin-left: 80px;border-radius: 20px;" src="C:\Users\Monika R K\Downloads\img3.jpg">
+       
+        
+     </div>
+     <div style="background-color: whitesmoke;padding-top: 20px;padding-bottom: 20px;margin-top: 25px;">
+    <p style="color: black;text-align: center;"><b>&#169; 2024 Copyright entranceexamcoaching.com.All Rights Reserved</b></p>
+     </div>
+    </body>
+</html>
+        <style>
+            
+
+    .navbar{
+    overflow: 20pxhidden;
+    background-color: rgb(98, 20, 98);
+    }
+    .navbar a{
+        float: left;
+        list-style-type: none;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 12px 16px;
+        text-decoration: none;
+        background-color:  rgb(98, 20, 98);
+        }
+    .text:hover { 
+            text-decoration: underline;
+
+        }
+    .dropdown{
+        float: left;
+        overflow:hidden;
+    }
+    .dropdown2{
+        float: left;
+        overflow:hidden;
+    }
+    .dropdown .dropbtn{
+          font-size: 16px;
+          border: none;
+          outline:none;
+          text-decoration: none;
+          color: white;
+          background-color: inherit;
+          padding: 12px 16px;
+          font-family: inherit;
+          margin: 0;
+    }
+    .dropdown2 .dropbtn2{
+          font-size: 16px;
+          border: none;
+          outline:none;
+          text-decoration: none;
+          color: white;
+          background-color: inherit;
+          padding: 12px 16px;
+          font-family: inherit;
+          margin: 0px;
+          
+    }
+    .dropdowncontent{
+        display: none;
+        position: absolute;
+        background-color: red;
+        min-width:160px;
+        z-index:1;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    .dropdowncontent2{
+        display: none;
+        position: absolute;
+        background-color: red;
+        min-width:160px;
+        z-index:1;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+    }
+    .dropdowncontent a{
+        float:none;
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    .dropdowncontent2 a{
+        float:none;
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+   
+    .navbar a:hover, .dropdown:hover .dropbtn{
+        background-color:purple;
+    
+    }
+    .navbar a:hover, .dropdown2:hover .dropbtn2{
+        background-color: purple;
+    }
+    .dropdown:hover .dropdowncontent{
+        display: block;
+    }
+    .dropdown2:hover .dropdowncontent2{
+        display: block;
+    }
+    .text:hover{
+        text-decoration:underline
+    }
+    </style>
